@@ -1,0 +1,11 @@
+CREATE DATABASE sneha;
+use sneha;
+CREATE TABLE student_info(id int, student_name varchar(50), address varchar(50),education varchar(50), branch varchar(50), collage varchar(50), city varchar(50), district varchar(50), taluk varchar(50));
+SELECT * FROM student_info;
+INSERT INTO student_info VALUES(1, 'laxmi', 'bilagi', 'BE', 'ECE', 'BGMIT', 'bilagi', 'bagalkot', 'hunagunda');  
+INSERT INTO student_info VALUES(2, 'vishala', 'karigoudar', 'BE', 'ECE', 'BGMIT', 'Bijapura', 'bagalkot', 'mudhol');
+INSERT INTO student_info VALUES(3, 'sneha', 'lokhande', 'BE', 'ECE', 'BGMIT', 'ilkal', 'bagalkot', 'mudhol');
+INSERT INTO student_info VALUES(4, 'swati', 'jeeragal', 'BE', 'ECE', 'BGMIT', 'Bagalkot', 'bagalkot', 'mudhol');
+INSERT INTO student_info VALUES(5, 'muskan', 'attar', 'BE', 'ECE', 'BGMIT', 'mudhol', 'bagalkot', 'mudhol');
+INSERT INTO student_info VALUES(6, 'anu', 'ballary', 'BE', 'ECE', 'BGMIT', 'guledagudda', 'bagalkot', 'mudhol');
+INSERT INTO student_info VALUES(7, 'sahana', 'chittaragi', 'BE', 'ECE', 'BGMIT', 'mudhol', 'bagalkot', 'mudhol');
