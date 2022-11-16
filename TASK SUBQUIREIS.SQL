@@ -112,6 +112,32 @@ SELECT pen_name from pen_details where b_id=(SELECT b_id from bag_details where 
 SELECT colour from pen_details where b_id=(SELECT b_id from bag_details where price=1200);
 
 
+CREATE TABLE chat_details(id int,
+chat_id bigint,
+chat_name varchar(50),
+location varchar(50),
+shopname varchar(50),
+price int,
+c_discount bigint,
+no_of_items int,
+maked_date date,
+type_of_item varchar(50),
+chat_type varchar(50));
+INSERT INTO chat_details VALUES(1,101,'GOBI','RAJAJINAGAR','SHUBHAM',45,20,10,CURRENT_DATE(),'SWEET','SOFTDRINKS');
+INSERT INTO chat_details VALUES(2,102,'PANIPURI','JAYANAGAR','AKSHAYA',55,19,9,CURRENT_DATE(),'KAR','COLDDRINKS');
+INSERT INTO chat_details VALUES(3,103,'BHELPURI','JPNAGAR','NATARAJ',65,18,8,CURRENT_DATE(),'SPICY','HARDDRINKS');
+INSERT INTO chat_details VALUES(4,104,'SEVAPURI','BTM','MANU',25,17,7,CURRENT_DATE(),'GARAM','SOFTTEA');
+INSERT INTO chat_details VALUES(5,105,'MASALAPURI','MEJESTIC','SNEHA',15,16,6,CURRENT_DATE(),'SALTY','COLDTEA');
+INSERT INTO chat_details VALUES(6,106,'NOODLES','VIJAYANAGAR','VISHALA',10,15,5,CURRENT_DATE(),'BITTER','SNAKCS');
+INSERT INTO chat_details VALUES(7,107,'MAGGI','BOMANAHALLI','LAXMI',11,14,4,CURRENT_DATE(),'TASTY','TIMEPASS');
+INSERT INTO chat_details VALUES(8,108,'VADAPAV','BAGALKOT','MAHA',9,13,3,CURRENT_DATE(),'SWEETY','REFRESH');
+INSERT INTO chat_details VALUES(9,109,'IDLI','MUDHOL','ANU',8,12,2,CURRENT_DATE(),'SOAR','HEALTY');
+INSERT INTO chat_details VALUES(10,110,'MASALADOSA','BENGALURU','SAHANA',7,11,1,CURRENT_DATE(),'CRISPY','SNACS');
+
+ 
+
+
+
 
 
 
